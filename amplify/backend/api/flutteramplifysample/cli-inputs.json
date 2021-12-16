@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "flutteramplifysample",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/ts-hirota/flutter-amplify-sample/amplify/backend/api/flutteramplifysample/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
